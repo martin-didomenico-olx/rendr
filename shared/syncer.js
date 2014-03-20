@@ -8,7 +8,7 @@ var _ = require('underscore'),
     Backbone = require('backbone'),
 
     // Pull out params in path, like '/users/:id'.
-    extractParamNamesRe = /:([a-z_-]+)/ig,
+    extractParamNamesRe = /:([.a-z_-]+)/ig,
 
     methodMap = {
       'create': 'POST',
